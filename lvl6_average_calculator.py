@@ -27,9 +27,9 @@ def lvl6_req():
     req_third = (200-level5_average)/4
 
     print(f"""
-          To get a 1st, you will need to average {round(req_first)}% in level 6.\n
-          To get a 2:1, you will need to average {round(req_two_one)}% in level 6.\n      
-          To get a 2:2, you will need to average {round(req_two_two)}% in level 6.\n
-          To get a 3rd, you will need to average {round(req_third)}% in level 6.\n
-          Please bear in mind that the averages used in each level drop half of your lowest scoring module, so the actual average you need may be slightly lower than predicted above.\n
-          """)
+To get a 1st, you will need to average {round(req_first)}% in all level 6 modules.\n
+To get a 2:1, you will need to average {round(req_two_one)}% in all level 6 modules.\n      
+To get a 2:2, you will need to average {round(req_two_two)}% in all level 6 modules.\n
+To get a 3rd, you will need to average {round(req_third)}% in all level 6 modules.\n
+Please bear in mind that the averages used in each level drop half of your lowest scoring module, so the actual average you need may be slightly lower than predicted above.\n
+""")
