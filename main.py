@@ -6,8 +6,8 @@ Created on Mon Feb 17 23:13:32 2020
 @author: user
 """
 
-from lvl6_average_calculator import lvl6_req
-from Degree_classification_calculator import deg_class
+from modules.lvl6_average_calculator import lvl6_req
+from modules.Degree_classification_calculator import deg_class
 
 print("""
 Welcome to the KU degree classification calculator. Here you can calculate what your final classification will be, or you can calculate what you need to get in level 6 to meet your target.
